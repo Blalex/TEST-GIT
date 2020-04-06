@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("blalex/test-git")
+        app = docker.build("abailey32/test")
     }
 
     stage('Test image') {
